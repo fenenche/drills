@@ -4,3 +4,12 @@ def move_zeros(numbers):
     return non_zeros + [0] * zeros_count
 my_list = [1, 2, 3]
 print(move_zeros(my_list))
+
+
+
+
+
+
+
+
+

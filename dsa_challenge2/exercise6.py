@@ -12,4 +12,6 @@ def closest_number(numbers, target):
                 
     return closest
 my_list = closest_number(numbers = [4, 8, 15, 20], target = 13)
+my_list2 = closest_number(numbers = [8, 12], target = 10)
 print(my_list)
+print(my_list2)
