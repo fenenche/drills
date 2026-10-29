@@ -1,7 +1,7 @@
 def longest_consecutive(numbers):
     if not numbers:
         return None
-    num_set = sets(numbers)
+    num_set = set(numbers)
     longest_streak = 0
     
     for num in num_set:
@@ -17,3 +17,5 @@ def longest_consecutive(numbers):
             longest_streak = max(longest_streak, current_streak)
             
     return longest_streak
+my_list = [100, 4, 200, 1, 3, 2]
+print(longest_consecutive(my_list))
